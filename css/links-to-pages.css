@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'mcharazo';
-   src: url('/TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+   src: url('TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
  }
 .links-to-pages{
     width: 100%;
@@ -15,7 +15,7 @@
  }
  .links-to-pages .image-with-links .divs{
     width: 100%;
-    background-image: url('/images/masaai.jpg');
+    background-image: url('images/masaai.jpg');
     background-attachment: fixed;     
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 
 
  .links-to-pages .image-with-links .divs:nth-child(2){
-    background-image: url('/images/madogo-wanaoga.jpg');
+    background-image: url('images/madogo-wanaoga.jpg');
  }
 
  .links-to-pages .divs .overlay {
