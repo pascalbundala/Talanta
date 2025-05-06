@@ -1,6 +1,6 @@
 @font-face {
-   font-family: 'mcharazo';
-   src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+   font-family: "mcharazo";
+   src: url("../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf") format("truetype");
  }
 .links-to-pages{
     width: 100%;
@@ -66,7 +66,7 @@
  }
  .links-to-pages .divs .overlay p{
     font-size: 0.95rem;
-    color: white;
+    color: #ffffff;
     margin-top: 10px;
     font-weight: 300;
  }
