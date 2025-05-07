@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'mcharazo';
+  src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+}
+.join-section{
+    background-color: orange;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+  .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .content:hover  {
+    background-color: transparent;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+
+.content{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 40px 0px;
+    display: flex;
+    background-color: orange;
+    flex-flow: column nowrap;
+    color: #1f202a;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.row-join{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-join h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    line-height: 3.5rem;
+    width: 40%;
+}
+.row-join p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 30%;
+    text-align: start;
+}
+
+.row-join h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+}
+
+
+
+
+/* @media (max-width:768px){
+  .join-section{
+    height: 50vh;
+}
+
+.row-join{
+    flex-flow: row wrap;
+}
+.row-join h1{
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+    width: 100%;
+    text-align: start;
+}
+.row-join p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 60%;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.row-join h4{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+} */
+
+/* @media (min-width: 769px) and (max-width:1024) {
+  .join-section{
+     height: 50vh;
+  }
+
+  .row-join p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.row-join h4{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+  .join-section{
+     height: 70vh;
+  }
+  .row-join p{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.row-join h4{
+    font-size: 1.4rem;
+  }
+} */
+
+/* small devices with less than 480px */
+@media only screen and (max-width:480px){
+
+.join-section{
+  height: 50vh;
+}
+
+.row-join{
+    flex-flow: row wrap;
+}
+.row-join h1{
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+    width: 80%;
+    text-align: start;
+}
+.row-join p{
+    font-size: 0.75rem;
+    font-weight: 300;
+    width: 80%;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.row-join h4{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+
+}
+
+/* devices with screen larger than 480px */
+@media only screen and (min-width:480px){
+
+  .join-section{
+    height: 60vh;
+  }
+  
+  .row-join{
+      flex-flow: row wrap;
+  }
+  .row-join h1{
+      font-size: 1.9rem;
+      line-height: 1.4rem;
+      width: 80%;
+      text-align: start;
+  }
+  .row-join p{
+      font-size: 0.82rem;
+      font-weight: 300;
+      width: 70%;
+      text-align: start;
+      margin-top: 20px;
+  }
+  
+  .row-join h4{
+      font-size: 0.96rem;
+      font-weight: 500;
+      margin-top: 30px;
+    }
+
+}
+
+/* devices with screen larger than 768px */
+@media only screen and (min-width:768px){
+
+  .join-section{
+    height: 70vh;
+  }
+  .row-join h1{
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      width: 50%;
+  }
+
+  .row-join p{
+      font-size: 0.85rem;
+      width: 60%;
+      margin-top: 20px;
+  }
+  
+  .row-join h4{
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 0px;
+    }
+
+}
+
+/* devices with screen larger than 992px */
+@media only screen and (min-width:992px){
+
+  .join-section{
+    height: 80vh;
+  }
+  .row-join h1{
+      font-size: 2.6rem;
+      line-height: 2.6rem;
+      width: 70%;
+  }
+
+  .row-join p{
+      font-size: 0.92rem;
+      width: 40%;
+      margin-top: 20px;
+  }
+  
+  .row-join h4{
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 0px;
+      width: 50%;
+      text-align: end;
+    }
+}
+
+/* devices with screen larger than 1200px */
+@media only screen and (min-width:1200px){
+
+  .join-section{
+    height: 80vh;
+  }
+  .row-join h1{
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      width: 100%;
+  }
+
+  .row-join p{
+      font-size: 0.90rem;
+      width: 40%;
+      margin-top: 20px;
+      font-weight: 300;
+      line-height: 1.2rem;
+  }
+  
+  .row-join h4{
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-top: 0px;
+    }
+}
