@@ -171,7 +171,9 @@
       .logo{
         height: 50px;
         width: 60px;
-        padding-top: 0px;
+        padding-top: 3px;
+        background-color:red;
+        
 
       }
 
