@@ -173,8 +173,7 @@
         width: 60px;
         padding-top: 3px;
         background-color:red;
-        
-
+        border:1px solid black;
       }
 
       .hamburger {
@@ -213,6 +212,7 @@
         height: 50px;
         width: 100px;
         padding-top: 0px;
+        border:1px solid red;
       }
 
       .hamburger {
