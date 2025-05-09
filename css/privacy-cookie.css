@@ -404,7 +404,7 @@
 }
 
 .logo {
-  height:60px;
+  height: 50px;
   width: 80px;
 }
 
@@ -517,7 +517,7 @@
 }
 
 .logo {
-  height:70px;
+  height: 60px;
   width: 90px;
 }
 
@@ -744,6 +744,13 @@
   .hamburger {
     font-size: 18px;
   }
+
+  .logo{
+  height: 60px;
+  width: 120px;
+  padding-top: 0px;
+  }
+
   
   .menu-overlay .close-btn {
     right: 60px;
