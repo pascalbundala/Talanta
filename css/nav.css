@@ -109,7 +109,7 @@
     color: #1F202A;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     transition: opacity 0.3s ease, visibility 0.3s ease;
     opacity: 0;
