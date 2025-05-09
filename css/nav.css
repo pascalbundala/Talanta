@@ -110,6 +110,7 @@
     display: flex;
     justify-content: center;
     align-items: start;
+     padding-left: 10%;
     flex-direction: column;
     transition: opacity 0.3s ease, visibility 0.3s ease;
     opacity: 0;
