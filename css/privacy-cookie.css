@@ -40,8 +40,8 @@
 }
 
 .logo {
-    height: 50px;
-    width: 70px;
+    height: 10px;
+    width: 200px;
     font-weight: bold;
     color: white;
     position: relative;
@@ -54,7 +54,7 @@
   .logo img{
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
     margin: auto 0;
   }
@@ -274,6 +274,27 @@
     justify-content: space-between;
 }
 
+.contents-pc .contents .content-text .text-item .dropdown .plus-minus{
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+    height: fit-content;
+}
+
+.contents-pc .contents .content-text .text-item .dropdown .plus-minus i{
+    font-size: 1.2rem;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.contents-pc .contents .content-text .text-item .dropdown .plus-minus .fa-minus{
+    display: none;
+}
+
+.contents-pc .contents .content-text .text-item .dropdown .plus-minus .fa-plus{
+    display: block;
+}
+
 .contents-pc .contents .content-text .text-item .dropdown h2{
     font-size: 2rem;
     font-family: "Poppins",sans-serif;
@@ -301,14 +322,10 @@
     display: none;
     height: fit-content;
     background-color: #fff;
-    padding: 20px 10px;
-    top: 30px;
-    left: 0px;
-    position: absolute;
+    padding: 0px 10px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-bottom: 1px solid #1F202A;
     z-index: 1;
-    border: 1px solid #ddd;
 }
 
 .contents-pc .contents .content-text .text-item .dropdown-content p{
@@ -404,14 +421,14 @@
 }
 
 .logo {
-  height: 60px;
+  height: 50px;
   width: 80px;
 }
 
 .logo img{
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   margin: auto 0;
 }
@@ -524,7 +541,7 @@
 .logo img{
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   margin: auto 0;
 }
@@ -644,6 +661,14 @@
   width: 120px;
 }
 
+.logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto 0;
+}
+
 .hamburger {
   font-size: 18px;
 }
@@ -738,7 +763,7 @@
   }
 
   .logo{
-  height: 80px;
+  height: 60px;
   width: 120px;
   padding-top: 0px;
   }
@@ -846,7 +871,7 @@
 }
 
 .logo {
-  height:90px;
+  height:70px;
   width: 140px;
 }
 
