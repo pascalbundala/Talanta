@@ -406,12 +406,13 @@
 .logo {
   height: 50px;
   width: 80px;
+  border:1px solid red;
 }
 
 .logo img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   margin: auto 0;
 }
@@ -519,12 +520,13 @@
 .logo {
   height: 60px;
   width: 90px;
+  border:1px solid white;
 }
 
 .logo img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   margin: auto 0;
 }
@@ -642,14 +644,6 @@
 .logo {
   height:70px;
   width: 120px;
-}
-
-.logo img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  margin: auto 0;
 }
 
 .hamburger {
