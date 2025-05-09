@@ -385,7 +385,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
 /* Mobile (320px - 480px): Target smaller smartphones in portrait orientation.*/
 @media only screen and (max-width:480px)  {
     .contents{
-        padding: 10px 0px;
+        padding: 30px 0px;
     }
 
     .contents .titles{
@@ -393,7 +393,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     }
     .contents .titles h2{
         font-size: 2.1rem;
-        line-height: 1.6rem;
+        line-height: 2.2rem;
     }
     
     
@@ -525,7 +525,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     }
     .contents .titles h2{
         font-size: 2.4rem;
-        line-height: 1.9rem;
+        line-height: 2.4rem;
     }
     .form-holder{
         width: 85%;
@@ -656,7 +656,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     }
     .contents .titles h2{
         font-size: 3rem;
-        line-height: 2.4rem;
+        line-height: 3rem;
     }
     .form-holder{
         width: 85%;
@@ -782,7 +782,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     }
     .contents .titles h2{
         font-size: 3.4rem;
-        line-height: 2.8rem;
+        line-height: 3.5rem;
     }
     .form-holder{
         width: 85%;
@@ -910,7 +910,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     }
     .contents .titles h2{
         font-size: 3.8rem;
-        line-height: 2.8rem;
+        line-height: 3.8rem;
     }
     .form-holder{
         width: 85%;
