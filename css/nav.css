@@ -168,12 +168,18 @@
       .social-icons {
         display: none;
       }
-      .logo{
-        height: 50px;
+      .logo {
+        height: 60px;
         width: 80px;
-        padding-top: 0px;
       }
-
+      
+      .logo img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        display: block;
+        margin: auto 0;
+      }
       .hamburger {
         font-size: 18px;
       }
@@ -206,12 +212,18 @@
       .social-icons {
         display: none;
       }
-      .logo{
+      .logo {
         height: 60px;
         width: 90px;
-        padding-top: 0px;
       }
-
+      
+      .logo img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        display: block;
+        margin: auto 0;
+      }
       .hamburger {
         font-size: 18px;
       }
@@ -247,7 +259,7 @@
       }
       .logo{
         height: 70px;
-        width: 110px;
+        width: 120px;
         padding-top: 0px;
       }
 
@@ -299,7 +311,7 @@
         display: flex;
       }
       .logo{
-        height: 70px;
+        height: 80px;
         width: 120px;
         padding-top: 0px;
       }
@@ -338,8 +350,8 @@
     @media only screen and  (min-width:1200px){
 
       .logo{
-        height: 70px;
-        width: 120px;
+        height: 90px;
+        width: 140px;
         padding-top: 0px;
       }
 
