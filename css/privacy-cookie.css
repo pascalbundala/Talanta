@@ -21,7 +21,7 @@
 #navbar {
   width: 100%;
   height: fit-content;
-  background-color: transparent;
+  background-color: white;
   color: white;
   display: flex;
   justify-content: space-between;
