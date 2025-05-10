@@ -310,7 +310,7 @@
     cursor: pointer;
     color: orange;
     transition: all 0.2s ease;
-    transform: translateX(20px);
+    transform: translateX(8px);
 }
 
 .contents-pc .contents .content-text .text-item.open .dropdown-content{
