@@ -32,11 +32,12 @@
   align-items: center;
   transition: background-color 0.3s ease;
   z-index: 999;
-  position: fixed;
+  
 }
 /* Background color when scrolled */
 .border-shadow{
   box-shadow: 1px 1px 4px rgba(16, 16, 16, 0.134);
+  position: fixed;
 }
 
 .logo {
