@@ -2,7 +2,7 @@
   font-family: 'mcharazo';
   src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
 }
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@
   }
 /* Navbar */
 
-#navbar {
+/* #navbar {
   width: 100%;
   height: fit-content;
   background-color: white;
@@ -32,6 +32,41 @@
   align-items: center;
   z-index: 999;
   
+}
+/* Background color when scrolled */
+/* .border-shadow{
+  box-shadow: 1px 1px 4px rgba(16, 16, 16, 0.134);
+  position: fixed;
+}  */
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+/* Navbar */
+
+#navbar {
+  width: 100%;
+  height: fit-content;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  z-index: 999;
 }
 /* Background color when scrolled */
 .border-shadow{
