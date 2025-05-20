@@ -155,6 +155,7 @@
         function myFunction(event, param) {
             const button = event.currentTarget;  
             let PerClick = 4; 
+            let PerClickimg = 4; 
                 if(button.id === 'show-more-btn'){
                     for (let i = vcurrentIndex; i < vcurrentIndex + PerClick && i < param.length; i++) {
                     param[i].style.display = 'flex';
@@ -166,12 +167,12 @@
                 } 
 
                 if(button.id === 'show-more-btn-images'){
-                    console.log("BUTTON IS CLICKED:");
+                    console.log("BUTTON IS CLICKED: ");
                     for (let j = icurrentIndex; j < icurrentIndex + PerClick && j < param.length; j++) {
                     param[j].style.display = 'flex';
                         
                 }
-                    icurrentIndex += PerClick;
+                    icurrentIndex += PerClickimg;
                     if (icurrentIndex >= param.length) {
                         button.style.display = 'none';
                     }
